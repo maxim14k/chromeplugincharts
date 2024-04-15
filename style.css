@@ -1,0 +1,77 @@
+@font-face {
+    font-family: "DM Sans";
+    src: url('KFOlCnqEu92Fr1MmSU5fBBc4.woff2') format('woff2');
+}
+
+
+body {
+    font-family: "DM Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    padding: 10px 17px;
+    margin-bottom: 0px;
+    background-color: rgb(9, 5, 44);
+    color: #fff;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 15px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.wrapper{
+    padding: 20px;
+}
+
+header {
+    background-color: #333;
+    padding: 10px 20px;
+    color: #fff;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-size: 24px;
+}
+
+.charts {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+.chart-block {
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 10px;
+    /*background-color: rgb(177, 177, 177);*/
+}
+
+.chart-title {
+    font-size: 15px;
+    margin-bottom: 10px;
+    color: rgb(156, 156, 156);
+}
+
+/* scroll line */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* scroll bar */
+::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+    border-radius: 10px;
+}
+
+/* scroll line hover */
+::-webkit-scrollbar-thumb:hover {
+    background-color: #999;
+}

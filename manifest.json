@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "name": "Charts",
+    "version": "1.0",
+    "description": "Displays charts from CSV data",
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "permissions": ["storage", "activeTab", "tabs"]
+    
+}
+  
